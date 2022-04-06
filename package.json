@@ -1,0 +1,20 @@
+{
+  "name": "rest-api-backend-app",
+  "version": "1.0.0",
+  "description": "REST API",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "keywords": ["Rest API", "MERN Stack", "MongoDB", "Express.js"],
+  "author": "Agholor Christotle",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.9"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
