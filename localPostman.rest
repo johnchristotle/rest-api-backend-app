@@ -1,0 +1,17 @@
+GET http://localhost:3000/students
+
+###
+POST http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "name": "Nimi Hosfall",
+    "age": 38,
+    "country": "Canada",
+    "subscribedToChannel": false
+   
+}
+
+
+
+
